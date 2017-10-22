@@ -1,13 +1,11 @@
 body {
-	background-color: #e2edff;
+	background-color: #ace7dd;
 }
 header {
 	height: 80px;
-	background-color: #e2edff;
+	background-color: #ace7dd;
 	border-bottom: 7px solid #dee5ef;
 }
-
-
 
 p {
 	max-height: 100px;
@@ -16,6 +14,7 @@ p {
 	overflow: hidden;
 	border-bottom: 2px solid #dee5ef;
 	margin-bottom: 70px;
+  color: black;
 }
 
 .row {
@@ -135,5 +134,19 @@ h3 {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
+}
+
+h6 {
+  color: black;
+  font-size: 19px;
+}
+h4 {
+  color: black;
+
+}
+
+.question {
+  color:black;
+  font-size: 17px;
 }
 
