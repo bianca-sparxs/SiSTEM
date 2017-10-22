@@ -10,13 +10,18 @@ header {
 
 
 p {
+	text-align: center;
+	max-width: 400px;
+	margin: 0 auto;
+
+}
+
 	max-height: 100px;
 	margin: 0 auto;
 	line-height: 30px;
 	overflow: hidden;
 	border-bottom: 2px solid #dee5ef;
 	margin-bottom: 70px;
-}
 
 .row {
 	padding: 50px;
