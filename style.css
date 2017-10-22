@@ -82,13 +82,7 @@ h6 {
 	display: inline-block;
 }
 
-.question {
-	border: 1px solid rgb(124, 120, 120);
-	width: 1000px;
-	padding: 40px;
-	margin:4px;
-	background-color: rgba(255, 255, 255, 0.678);
-}
+.
 
 h7 {
 	font-size: 30px;
@@ -109,4 +103,14 @@ h4 {
 }
 .search-input {
 	width: 920px !important;
+}
+
+#logo
+{
+  float: right;
+}
+
+#logoList
+{
+  list-style-type: none;
 }
