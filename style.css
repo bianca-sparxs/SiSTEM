@@ -20,14 +20,19 @@ p {
 
 .row {
 	padding: 50px;
-	justify-content: center;
+  justify-content: center;
+  margin-top: -25px;
 }
 
+.space{
+  padding-top: -250px;
+}
 
 h1 {
 	color: #4d83d1;
 	font-size: 75px;
 	text-align: center;
+  font-family: 'Heebo', sans-serif;
 }
 
 .news {
@@ -42,7 +47,6 @@ padding-left: 1em;
 height: 850px; 
 background: linear-gradient(transparent, #202020), url("news-filler.jpg") no-repeat center; 
 background-size: cover; 
-
 }
 
 .col-md-6 {
@@ -63,7 +67,9 @@ background-size: cover;
   	width: 100%;
 }
 
+space1 {
 
+}
 
 
 
