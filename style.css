@@ -142,8 +142,8 @@ body, html {
 }
 
 .bgimg-3 {
-  background-image: url("new-filler.jpg");
-  min-height: 400px;
+  background-image: url("news-filler.jpg");
+  min-height: 100px;
 }
 
 .caption {
