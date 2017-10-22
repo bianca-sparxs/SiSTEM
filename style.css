@@ -19,19 +19,20 @@ p {
 
 .row {
 	padding: 50px;
-  justify-content: center;
-  margin-top: -25px;
+	justify-content: center;
 }
 
-.space{
-  padding-top: -250px;
-}
 
 h1 {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
 	color: #4d83d1;
 	font-size: 75px;
 	text-align: center;
-  font-family: 'Heebo', sans-serif;
 }
 
 .news {
@@ -46,94 +47,51 @@ padding-left: 1em;
 height: 850px; 
 background: linear-gradient(transparent, #202020), url("news-filler.jpg") no-repeat center; 
 background-size: cover; 
+
 }
 
 .col-md-6 {
 	max-height: 30em;
 	overflow: scroll;
-}
-
-.containter-fluid {
-	
-	display: flex;
-  	align-content: center;
-  	align-items: center;
-  	flex-direction: column;
-  	flex-wrap: nowrap;
-  	height: 100%;
-  	justify-content: space-around;
-  	position: relative;
-  	width: 100%;
-}
-
-space1 {
 
 }
 
-
-
-
-
-body, html {
-  height: 100%;
-  margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
-}
-
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  position: relative;
-  opacity: 0.65;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+h5 {
+	font-size: 30px;
 
 }
-.bgimg-1 {
-  background-image: url("news-filler.jpg");
-  min-height: 100%;
+
+h6 {
+	line-height: 60px;
 }
 
-.bgimg-2 {
-  background-image: url("news-filler.jpg");
-  min-height: 400px;
+.row1 {
+	padding: 10px;
+	justify-content: center;
 }
 
-.bgimg-3 {
-  background-image: url("new-filler.jpg");
-  min-height: 400px;
+.col1-md-4 {
+	overflow:scroll;
+	display: inline-block;
+	margin-right: 39px;
+
 }
 
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
+.col1-md-6 {
+	vertical-align: top;
+	display: inline-block;
 }
 
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+.question {
+	border: 1px solid rgb(124, 120, 120);
+	width: 1000px;
+	padding: 40px;
+	margin:4px;
+	background-color: rgba(255, 255, 255, 0.678);
 }
 
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111;
-}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
-        background-attachment: scroll;
-    }
+h7 {
+	font-size: 30px;
 }
 
 h6 {
@@ -149,4 +107,6 @@ h4 {
   color:black;
   font-size: 17px;
 }
-
+.search-input {
+	width: 920px !important;
+}
